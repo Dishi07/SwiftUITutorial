@@ -95,6 +95,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F250C0B027D7A41E00E0AA6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F250C0AC27D7A30400E0AA6F /* Landmark.swift */,
+				F250C0AE27D7A3CD00E0AA6F /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F250C0B127D7A42500E0AA6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F264EF6927D6551F007D1147 /* MapView.swift */,
+				F264EF6627D6542F007D1147 /* CircleImage.swift */,
+				F2F1282027D5385000461C01 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F2F1281927D5384F00461C01 = {
 			isa = PBXGroup;
 			children = (
@@ -110,13 +129,10 @@
 		F2F1281E27D5385000461C01 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F250C0B127D7A42500E0AA6F /* Views */,
+				F250C0B027D7A41E00E0AA6F /* Model */,
 				F2F1281F27D5385000461C01 /* SwiftUITutorialApp.swift */,
-				F2F1282027D5385000461C01 /* ContentView.swift */,
 				F2F1282127D5385000461C01 /* Assets.xcassets */,
-				F264EF6627D6542F007D1147 /* CircleImage.swift */,
-				F264EF6927D6551F007D1147 /* MapView.swift */,
-				F250C0AC27D7A30400E0AA6F /* Landmark.swift */,
-				F250C0AE27D7A3CD00E0AA6F /* ModelData.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
