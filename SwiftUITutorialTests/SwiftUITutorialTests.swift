@@ -1,10 +1,3 @@
-//
-//  SwiftUITutorialTests.swift
-//  SwiftUITutorialTests
-//
-//  Created by 石田大智 on 2024/08/10.
-//
-
 import XCTest
 @testable import SwiftUITutorial
 

@@ -1,10 +1,3 @@
-//
-//  SwiftUITutorialUITests.swift
-//  SwiftUITutorialUITests
-//
-//  Created by 石田大智 on 2024/08/10.
-//
-
 import XCTest
 
 final class SwiftUITutorialUITests: XCTestCase {
