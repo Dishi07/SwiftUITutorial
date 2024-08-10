@@ -14,6 +14,8 @@
 		F212203E2C67370400737BD2 /* SwiftUITutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F212203D2C67370400737BD2 /* SwiftUITutorialTests.swift */; };
 		F21220482C67370400737BD2 /* SwiftUITutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21220472C67370400737BD2 /* SwiftUITutorialUITests.swift */; };
 		F212204A2C67370400737BD2 /* SwiftUITutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21220492C67370400737BD2 /* SwiftUITutorialUITestsLaunchTests.swift */; };
+		F212205A2C674C4600737BD2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21220592C674C4600737BD2 /* CircleImage.swift */; };
+		F212205C2C674CBA00737BD2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F212205B2C674CBA00737BD2 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F21220432C67370400737BD2 /* SwiftUITutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21220472C67370400737BD2 /* SwiftUITutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialUITests.swift; sourceTree = "<group>"; };
 		F21220492C67370400737BD2 /* SwiftUITutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F21220592C674C4600737BD2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F212205B2C674CBA00737BD2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		F212202B2C67370300737BD2 /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				F21220582C674C2800737BD2 /* CustomView */,
 				F212202C2C67370300737BD2 /* SwiftUITutorialApp.swift */,
 				F212202E2C67370300737BD2 /* ContentView.swift */,
 				F21220302C67370400737BD2 /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				F21220492C67370400737BD2 /* SwiftUITutorialUITestsLaunchTests.swift */,
 			);
 			path = SwiftUITutorialUITests;
+			sourceTree = "<group>";
+		};
+		F21220582C674C2800737BD2 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F21220592C674C4600737BD2 /* CircleImage.swift */,
+				F212205B2C674CBA00737BD2 /* MapView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F212202F2C67370300737BD2 /* ContentView.swift in Sources */,
+				F212205C2C674CBA00737BD2 /* MapView.swift in Sources */,
 				F212202D2C67370300737BD2 /* SwiftUITutorialApp.swift in Sources */,
+				F212205A2C674C4600737BD2 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
