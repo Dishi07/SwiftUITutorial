@@ -1,9 +1,3 @@
-//
-//  LandmarkRow.swift
-//  SwiftUITutorial
-//
-//  Created by 石田大智 on 2024/08/10.
-//
 
 import SwiftUI
 
@@ -16,12 +10,18 @@ struct LandmarkRow: View {
                 .frame(width: 50, height: 50)
             Text(landmark.name)
             Spacer()
+
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.yellow)
+            }
         }
     }
 }
 
 #Preview {
-    Group {
+    let landmarks = ModelData().landmarks
+    return Group {
         LandmarkRow(landmark: landmarks[0])
         LandmarkRow(landmark: landmarks[1])
     }
